@@ -18,8 +18,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqZ-8Y-RLL">
-                                <rect key="frame" x="219" y="404" width="163" height="30"/>
-                                <state key="normal" title="Switch on auto check in"/>
+                                <rect key="frame" x="218" y="404" width="165" height="30"/>
+                                <state key="normal" title="Switch on auto check-in"/>
                                 <connections>
                                     <action selector="SwitchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="16V-RN-DBN"/>
                                 </connections>
