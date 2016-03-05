@@ -11,6 +11,21 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func SwitchButton(sender: UIButton) {
+        
+        let title = "My Title"
+        
+        let message = "You just tapped a button"
+        
+        let okText = "OK"
+        
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        
+        let okButton = UIAlertAction(title: okText, style: UIAlertActionStyle.Cancel, handler: nil)
+        
+        alert.addAction(okButton)
+        
+        presentViewController(alert, animated: true, completion: nil)
+        
     }
     
     override func viewDidLoad() {
